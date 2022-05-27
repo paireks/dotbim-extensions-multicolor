@@ -1,4 +1,7 @@
 # dotbim-extensions-multicolor (Version 1.0.0)
+
+## Introduction
+
 Extension for dotbim file format to allow multicolor elements.
 
 Idea of multicolor elements was introduced by Viktor Kovacs - https://github.com/paireks/dotbim/issues/11
@@ -6,7 +9,7 @@ Idea of multicolor elements was introduced by Viktor Kovacs - https://github.com
 Main repository for dotbim: https://github.com/paireks/dotbim
 dotbim website: https://dotbim.net/
 
-# Tag
+## Tag
 
 To color single element with multiple colors add "face_colors" tag inside an element.
 "face_colors" is a simple list of integers (integers should be between 0-255) organised in that way:
@@ -24,12 +27,12 @@ Then you will have:
 
 ```
 
-# Example
+## Example
 
 ```json
 
 {
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
   "meshes": [
     {
       "mesh_id": 0,
@@ -45,7 +48,7 @@ Then you will have:
       "guid": "9f61b565-06a2-4bef-8b72-f37091ab54d6",
       "type": "Brick",
       "color": { "r": 255, "g": 0, "b": 0, "a": 255 },
-      "face_colors" : [ 255, 0, 0, 255, 0, 255, 0, 255 ]
+      "face_colors" : [ 255, 0, 0, 255, 0, 255, 0, 255 ],
       "info": {
         "Name": "Colored Element"
       }
