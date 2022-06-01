@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Extension for dotbim file format to allow multicolor elements.
+Extension with optional "face_colors" tag for dotbim file format to allow multicolor elements.
 
 Idea of multicolor elements was introduced by Viktor Kovacs - https://github.com/paireks/dotbim/issues/11
 
